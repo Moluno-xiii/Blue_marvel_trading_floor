@@ -1,6 +1,6 @@
 const TextFooter = () => {
   return (
-    <footer>
+    <footer className="mt-auto">
       <div>
         <span>You can also follow us on</span>
         <ul>
