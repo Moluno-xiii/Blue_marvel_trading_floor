@@ -1,15 +1,13 @@
 const ImageSection = () => {
   return (
-    <div className="col-span-5 md:max-w-[50vw] max-lg:w-[100vw]">
-      <img
-        className="h-full w-full max-lg:h-[]"
-        src="/hero-image.svg"
-        alt="Image of workers on their PC"
-        // height={320}
-        // width={3000}
-      />
-    </div>
-  );
+    <div className="hidden sm:block md:col-span-6 sm:col-span-6  w-full h-full">
+    <img
+        src="/public/hero-image.svg"
+        alt="landing page image"
+        className="normal-case w-full h-[100dvh] object-cover"
+    />
+</div>
+  )
 };
 
 export default ImageSection;

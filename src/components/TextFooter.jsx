@@ -1,18 +1,40 @@
+import { FaInstagram, FaFacebook, FaWhatsapp, FaTwitter } from "react-icons/fa";
+
 const TextFooter = () => {
   return (
-    <footer className="mt-auto">
-      <div>
+    <footer className="mt-auto text-sm max-w-[470px] mx-auto flex-col flex gap-y-4 sm:gap-y-8">
+      <div className="flex flex-col lg:flex-row gap-5 items-center">
         <span>You can also follow us on</span>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul className="flex flex-row items-center gap-x-5">
+          <li className="h-10 w-10 rounded-[10px] text-lightBlue bg-white flex items-center justify-center">
+            <a href="">
+            <FaInstagram className="h-7 w-7" />
+            </a>
+          </li>
+          <li className='h-10 w-10 rounded-[10px] text-lightBlue bg-white flex items-center justify-center'>
+            <a href="">
+            <FaFacebook className="h-7 w-7" />
+            </a>
+          </li>
+          <li className='h-10 w-10 rounded-[10px] text-lightBlue bg-white flex items-center justify-center'>
+            <a href="">
+            <FaWhatsapp className="h-7 w-7" />
+            </a>
+          </li>
+          <li className='h-10 w-10 rounded-[10px] text-lightBlue bg-white flex items-center justify-center'>
+            <a href="">
+            <FaTwitter className="h-7 w-7" />
+            </a>
+          </li>
         </ul>
       </div>
-      <span>&copy; Copyrights BlueMarvelCapital | All Rights Reserved</span>
+      <span className="text-center">&copy; Copyrights BlueMarvelCapital | All Rights Reserved</span>
     </footer>
   );
 };
 
 export default TextFooter;
+
+
+
+

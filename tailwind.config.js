@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         primary : "#040238",
-        lightWhite : "#F7F7F7"
+        lightWhite : "#F7F7F7",
+        lightBlue: "#00B1FF"
       },
       fontFamily:{
         Poppins : "Poppins"

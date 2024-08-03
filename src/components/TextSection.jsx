@@ -3,13 +3,13 @@ import Logo from "./Logo";
 
 const TextSection = () => {
   return (
-    <div className="col-span-5 mx-auto flex h-full max-w-[438px] flex-col items-center bg-primary font-Poppins text-white max-lg:h-[100dvh] max-lg:w-[100vw] md:max-w-[50vw]">
+    <div className="bg-primary max-md:h-[100dvh] items-center text-white py-10 md:col-span-6 sm:col-span-6 w-full text-sm xl:text-lg xl:px-10 px-2 md:px-4 h-full my-auto flex flex-col justify-center mx-auto">
       <Logo />
-      <div>
-        <p className="text-[40px] font-bold leading-[60px]">
+      <div className="flex flex-col items-center sm:gap-y-[50px] gap-y-10 max-w-[470px] mx-auto">
+        <p className="sm:text-[40px] text-3xl max-sm:text-center font-bold sm:leading-[60px]">
           Notice : Website revamp is in progress
         </p>
-        <span className="text-xl leading-8 text-lightWhite">
+        <span className="sm:text-xl text-sm sm:leading-8 text-lightWhite">
           We are currently revamping our website to enhance your browsing
           experience. During this time, We may be unavailable. We apologize for
           any inconveniences and appreciate your patience
