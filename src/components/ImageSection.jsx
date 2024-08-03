@@ -2,7 +2,7 @@ const ImageSection = () => {
   return (
     <div className="hidden sm:block md:col-span-6 sm:col-span-6  w-full h-full">
     <img
-        src="/public/hero-image.svg"
+        src="/hero-image.svg"
         alt="landing page image"
         className="normal-case w-full h-[100dvh] object-cover"
     />
