@@ -1,4 +1,4 @@
-import { FaInstagram, FaFacebook, FaWhatsapp, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const TextFooter = () => {
   return (
@@ -13,17 +13,7 @@ const TextFooter = () => {
           </li>
           <li className='h-10 w-10 rounded-[10px] text-lightBlue bg-white flex items-center justify-center'>
             <a href="">
-            <FaFacebook className="h-7 w-7" />
-            </a>
-          </li>
-          <li className='h-10 w-10 rounded-[10px] text-lightBlue bg-white flex items-center justify-center'>
-            <a href="">
-            <FaWhatsapp className="h-7 w-7" />
-            </a>
-          </li>
-          <li className='h-10 w-10 rounded-[10px] text-lightBlue bg-white flex items-center justify-center'>
-            <a href="">
-            <FaTwitter className="h-7 w-7" />
+            <FaLinkedin className="h-7 w-7" />
             </a>
           </li>
         </ul>
