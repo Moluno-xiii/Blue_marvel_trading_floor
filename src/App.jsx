@@ -2,7 +2,7 @@ import ImageSection from "./components/ImageSection";
 import TextSection from "./components/TextSection";
 function App() {
   return (
-    <div className="flex h-[100dvh] w-[100vw] flex-col md:grid md:grid-cols-10">
+    <div className="flex flex-col max-md:flex-col-reverse md:grid-cols-10 md:grid md:h-[100dvh] md:w-[100vw]">
       <TextSection />
       <ImageSection />
     </div>

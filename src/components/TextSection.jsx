@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const TextSection = () => {
   return (
-    <div className="h-full bg-primary font-Poppins text-white col-span-5">
+    <div className="col-span-5 h-full max-w-[50vw] bg-primary font-Poppins text-white max-lg:h-[100dvh] max-lg:w-[100vw]">
       <Logo />
       <p>Notice : Website revamp is in progress</p>
       <span>
